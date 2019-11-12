@@ -1,13 +1,125 @@
-.pageH{color:purple;}
+@import "normal.css";
+@import "fonts.css";
+/*  
+*{
+    box-sizing: border-box;
+}
+*/
 
-
-.purpleP{
-    color:purple;
+html{
+    font-size:100%;
+    max-width: 28.125rem;
+    background-color: lavender;
+    font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
-#pinkP{
-    color:pink;
+
+.contain{
+    max-width: 28rem;
+    background-color: ghostwhite;
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+div.logo{
+    position: relative;
+    top:.25rem;
+    left:0;
+    /*find best postition*/
+}
+.logo a{
+    margin:0;
+    padding:0;
+}
+
+header{
+    font-stretch: condensed;
+    font-weight: bold;
+    color:rgb(90, 63, 90);
+    border-bottom: 1px solid gainsboro;
+    text-align: center;
+    padding: .25rem 0;
+}
+
+#introduction{
+    padding: 1rem;
+}
+
+.work_exp{
+    font-size: .75rem;
+}
+/*
+iframe{
+    max-width: 28.125rem;
+}
+
+h1.pageH{
+    
 }
 p{
-    color:green;
+
 }
+img{
+
+}
+*/
+nav ul{
+    list-style:none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0;
+}
+
+.top{
+    text-align: center;
+}
+p{
+    text-indent: 2rem;
+}
+#me p{
+    padding:1rem;
+}
+.me img{
+    width: 100%;
+}
+
+
+
+/*
+height/width are set to "auto" if not specified and will fill as much as possible
+ch = character count
+1vw = 1% viewport width percent of screen doesnt care about the rest
+1vh = 1% viewport height
+
+margin: .3em; applies to all 4 sides
+margin: .5em .1em .2em .5em; start at top and go clockwise
+same applies to padding, border, etc.
+
+border: width style color
+
+box-shadow: horizontal vertical blur spread color
+
+background-attachment - keeps pic still while eveything else continues to scroll
+
+background-image: url(''); IN RELATION TO CSS SHEET can be applied to different blocks
+background-size: container etc....
+
+background: color image repeats attach position
+css gradient *search online*
+try to find a tool kit
+*/
+
+/*
+https://github.com/philsinatra/IDM221/blob/master/instructor_materials/IDM221-07-layout.md
+    absolute - like an overlay and move with the rest of page "takes it out of the page"
+    fixed - same with absolute but doesnt move with the page
+    sticky - will move with page until a certain point
+    z-index - "layer"
+    float - 
+*/

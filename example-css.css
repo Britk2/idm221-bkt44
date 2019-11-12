@@ -1,0 +1,46 @@
+@import "normal.css";
+@import "fonts.css";
+/*
+.wrapper{
+
+}
+*/
+.card{
+    width: 100%;
+    max-width: 21rem;
+    background-color: white ;
+    margin: 0 auto;
+
+}
+
+.card_img img {
+    width: 90%;
+}
+
+.card_content{
+    padding: 1rem;
+}
+
+.card_content h1{
+    color: darkgrey;
+    font-size: .875 rem;
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem
+}
+
+.nav ul{
+    list-style:none;
+
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    display: block;
+    background-color: lightgrey;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem .75rem;
+
+}
