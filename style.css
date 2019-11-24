@@ -47,11 +47,14 @@ header{
     font-weight: thin;
     font-style: normal;
 }
-
-.work_exp{
+p{
+    text-indent: 2rem;
+}
+.resume{
     font-size: .75rem;
 }
 
+/*menu navigation*/
 nav ul {
     text-align: justify;
     line-height: 0;
@@ -73,16 +76,14 @@ line-height: 100%;
 .top{
     text-align: center;
 }
-p{
-    text-indent: 2rem;
-}
+/*Pic on the about page*/
 #me p{
     padding:1rem;
 }
 .me img{
     width: 100%;
 }
-
+/* CSS stuff for the social media tabs */
 .social ul{
     list-style:none;
     padding: 0;
