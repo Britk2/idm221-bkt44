@@ -10,9 +10,8 @@ html{
     font-size:100%;
     max-width: 28.125rem;
     background-color: lavender;
-    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 .contain{
     max-width: 28rem;
@@ -35,8 +34,7 @@ div.logo{
 }
 
 header{
-    font-stretch: condensed;
-    font-weight: bold;
+    font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     color:rgb(90, 63, 90);
     border-bottom: 1px solid gainsboro;
     text-align: center;
@@ -44,36 +42,32 @@ header{
 }
 
 #introduction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1rem;
+    font-weight: thin;
+    font-style: normal;
 }
 
 .work_exp{
     font-size: .75rem;
 }
-/*
-iframe{
-    max-width: 28.125rem;
+
+nav ul {
+    text-align: justify;
+    line-height: 0;
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+  
+nav ul:after {
+content: '';
+display: inline-block;
+width: 100%;
 }
 
-h1.pageH{
-    
-}
-p{
-
-}
-img{
-
-}
-*/
-nav ul{
-    list-style:none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 0;
+nav ul li {
+display: inline-block;
+line-height: 100%;
 }
 
 .top{
@@ -89,37 +83,13 @@ p{
     width: 100%;
 }
 
+.social ul{
+    list-style:none;
+    padding: 0;
+    text-align: center;
+}
 
-
-/*
-height/width are set to "auto" if not specified and will fill as much as possible
-ch = character count
-1vw = 1% viewport width percent of screen doesnt care about the rest
-1vh = 1% viewport height
-
-margin: .3em; applies to all 4 sides
-margin: .5em .1em .2em .5em; start at top and go clockwise
-same applies to padding, border, etc.
-
-border: width style color
-
-box-shadow: horizontal vertical blur spread color
-
-background-attachment - keeps pic still while eveything else continues to scroll
-
-background-image: url(''); IN RELATION TO CSS SHEET can be applied to different blocks
-background-size: container etc....
-
-background: color image repeats attach position
-css gradient *search online*
-try to find a tool kit
-*/
-
-/*
-https://github.com/philsinatra/IDM221/blob/master/instructor_materials/IDM221-07-layout.md
-    absolute - like an overlay and move with the rest of page "takes it out of the page"
-    fixed - same with absolute but doesnt move with the page
-    sticky - will move with page until a certain point
-    z-index - "layer"
-    float - 
-*/
+.social ul li{
+    display: inline-block;
+    padding: 0;
+}
