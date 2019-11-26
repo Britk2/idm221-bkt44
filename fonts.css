@@ -17,6 +17,7 @@
          url('RobotoCondensed-Light-webfont.woff') format('woff'),
          url('RobotoCondensed-Light-webfont.ttf') format('truetype'),
          url('RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
 }
 
 @font-face {

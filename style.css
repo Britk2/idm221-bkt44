@@ -16,7 +16,7 @@ html{
 .contain{
     max-width: 28rem;
     background-color: ghostwhite;
-    margin: 1rem;
+    margin: .75rem;
 }
 
 a{
@@ -26,7 +26,6 @@ div.logo{
     position: relative;
     top:.25rem;
     left:0;
-    /*find best postition*/
 }
 .logo a{
     margin:0;
@@ -35,6 +34,7 @@ div.logo{
 
 header{
     font-family: roboto_condensed, Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color:rgb(90, 63, 90);
     border-bottom: 1px solid gainsboro;
     text-align: center;
@@ -52,14 +52,38 @@ p{
 }
 .resume{
     font-size: .75rem;
+    padding: 1rem;
 }
 
+.resume div{
+    padding-bottom: .5rem;
+}
+
+.resume div dt{
+    padding-bottom: .5rem;
+}
+
+.resume div dd{
+    padding-bottom: .5rem;
+}
+
+.resume .education ul li{
+    list-style: none;
+}
+.arduino video{
+    max-width: 28rem;
+}
 /*menu navigation*/
+nav{
+    border-bottom: 1px solid gainsboro;
+}
+
 nav ul {
     text-align: justify;
     line-height: 0;
     margin: 0;
     padding: 1rem 2rem;
+    font-weight: bold;
   }
   
 nav ul:after {
@@ -72,6 +96,7 @@ nav ul li {
 display: inline-block;
 line-height: 100%;
 }
+
 
 .top{
     text-align: center;
