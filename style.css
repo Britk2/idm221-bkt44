@@ -30,7 +30,7 @@ a{
     left:0;
 }
 .logo img{
-    width: 32%;
+    width: 25%;
 }
 .logo a{
     margin:0;
@@ -56,6 +56,12 @@ p{
     text-indent: 2rem;
     padding: 1rem;
 }
+h1, h2, h4, h6{
+    color:rgb(90, 63, 90);
+}
+h1, h2, h3, h4, h6{
+    text-align:center;
+}
 .resume{
     font-size: .75rem;
     padding: 1rem;
@@ -78,17 +84,16 @@ p{
 }
 
 img{
-    max-width: 26.325rem;    
+    max-width: 100%;    
 }
 
 video{
-    max-width: 26.325rem;
+    max-width: 100%;
 }
 /*Portfolio Page*/
 .portfolio img{
     opacity: .3;
     width: 100%;
-   
 }
 
 .portfolio h2{
@@ -99,8 +104,6 @@ video{
 }
 
 .arduino{
-    margin-bottom: 2rem;
-    margin-top: 2rem;
     position: relative;
 }
 .arduino h2{
@@ -113,8 +116,6 @@ video{
     z-index: 10;
 }
 .reyale{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     position: relative;
 }
 .reyale h2{
@@ -127,9 +128,10 @@ video{
     z-index: 10;
 }
 .phoenix{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     position: relative;
+}
+.phoenix p a{
+    text-decoration: underline;
 }
 .phoenix h2{
     position: absolute;
@@ -141,8 +143,6 @@ video{
     z-index: 10;
 }
 .wood{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     position: relative;
 }
 .wood h2{
@@ -155,8 +155,6 @@ video{
     z-index: 10;
 }
 .portfolio .logo{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     position: relative;
 }
 .logo h2{
@@ -168,7 +166,11 @@ video{
     font-size: 18px;
     z-index: 10;
 }
-
+.portfolio_l .logos{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+}
 /*menu navigation*/
 nav{
     border-bottom: 1px solid gainsboro;
