@@ -11,14 +11,19 @@ html{
     max-width: 28.125rem;
     background-color: lavender;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
 }
 
-.contain{
+body{
     max-width: 28rem;
+    margin: auto;
+}
+.contain{
     background-color: ghostwhite;
     margin: .75rem;
     outline: 5px solid ghostwhite;
     border: 2.5px solid lavender;
+    width:100%;
 }
 
 a{
@@ -30,7 +35,7 @@ header .logo{
     left:0;
 }
 header .logo img{
-    width: 25%;
+    width: 6rem;
 }
 header .logo a{
     margin:0;
