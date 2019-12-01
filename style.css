@@ -24,15 +24,15 @@ html{
 a{
     text-decoration: none;
 }
-.logo{
+header .logo{
     position: relative;
     top:.25rem;
     left:0;
 }
-.logo img{
+header .logo img{
     width: 25%;
 }
-.logo a{
+header .logo a{
     margin:0;
     padding:0;
 }
@@ -59,12 +59,17 @@ p{
 h1, h2, h4, h6{
     color:rgb(90, 63, 90);
 }
-h1, h2, h3, h4, h6{
-    text-align:center;
-}
 .resume{
     font-size: .75rem;
     padding: 1rem;
+}
+
+.basic_info{
+    text-align: center;
+}
+
+.resume h2, .resume h4{
+    text-align: center;
 }
 
 .resume div{
@@ -96,6 +101,14 @@ video{
     width: 100%;
 }
 
+.portfolio_l img, .portfolio_l svg{
+    width: 100%;
+}
+
+.portfolio_l h1, .portfolio_l h2, .portfolio_l h3, .portfolio_l h4, .portfolio_l h5, .portfolio_l h6{
+    text-align: center;
+}
+
 .portfolio h2{
     font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -115,10 +128,10 @@ video{
     font-size: 18px;
     z-index: 10;
 }
-.reyale{
+.ux{
     position: relative;
 }
-.reyale h2{
+.ux h2{
     position: absolute;
     left: 0;
     top: 50%;
@@ -126,26 +139,15 @@ video{
     text-align: center;
     font-size: 18px;
     z-index: 10;
-}
-.phoenix{
-    position: relative;
 }
 .phoenix p a{
     text-decoration: underline;
 }
-.phoenix h2{
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    z-index: 10;
-}
-.wood{
+
+.arduino{
     position: relative;
 }
-.wood h2{
+.arduino h2{
     position: absolute;
     left: 0;
     top: 50%;
@@ -157,7 +159,7 @@ video{
 .portfolio .logo{
     position: relative;
 }
-.logo h2{
+.portfolio .logo h2{
     position: absolute;
     left: 0;
     top: 50%;
