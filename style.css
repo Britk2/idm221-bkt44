@@ -7,22 +7,21 @@
 */
 
 html{
-    font-size:100%;
-    max-width: 28.125rem;
     background-color: lavender;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100%;
     margin: auto;
+    max-width: 28.125rem;
 }
 
 body{
     max-width: 28rem;
-    margin: auto;
 }
 .contain{
     background-color: ghostwhite;
+    border: 2.5px solid lavender;
     margin: .75rem;
     outline: 5px solid ghostwhite;
-    border: 2.5px solid lavender;
     width:100%;
 }
 
@@ -30,9 +29,9 @@ a{
     text-decoration: none;
 }
 header .logo{
+    left:0;
     position: relative;
     top:.25rem;
-    left:0;
 }
 header .logo img{
     width: 6rem;
@@ -43,26 +42,26 @@ header .logo a{
 }
 
 header{
+    border-bottom: 1px solid gainsboro;
+    color:rgb(90, 63, 90);
     font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color:rgb(90, 63, 90);
-    border-bottom: 1px solid gainsboro;
     text-align: center;
     padding: .25rem 0;
 }
 
 #introduction{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1rem;
-    font-weight: thin;
     font-style: normal;
+    font-weight: thin;
+    padding: 1rem;
 }
 #introduction h3, #introduction h6{
     text-align: center;
 }
 p{
-    text-indent: 2rem;
     padding: 1rem;
+    text-indent: 2rem; 
 }
 h1, h2, h4, h6{
     color:rgb(90, 63, 90);
@@ -124,83 +123,75 @@ video{
 .portfolio h2{
     font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-shadow: 2px 2px darkgray;
     padding: 1rem 0;
+    text-shadow: 2px 2px darkgray;
 }
 
 .arduino{
     position: relative;
 }
 .arduino h2{
-    position: absolute;
+    font-size: 1.125rem;
     left: 0;
+    position: absolute;
+    text-align: center;
     top: 50%;
     width: 100%;
-    text-align: center;
-    font-size: 18px;
     z-index: 10;
 }
 .ux{
     position: relative;
 }
 .ux h2{
-    position: absolute;
+    font-size: 1.125rem;
     left: 0;
+    position: absolute;
+    text-align: center;
     top: 50%;
     width: 100%;
-    text-align: center;
-    font-size: 18px;
     z-index: 10;
 }
 .phoenix p a{
     text-decoration: underline;
 }
 
-.arduino{
-    position: relative;
-}
-.arduino h2{
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    z-index: 10;
-}
 .portfolio .logo{
     position: relative;
 }
 .portfolio .logo h2{
-    position: absolute;
+    font-size: 1.125rem;
     left: 0;
+    position: absolute;
+    text-align: center;
     top: 50%;
     width: 100%;
-    text-align: center;
-    font-size: 18px;
     z-index: 10;
 }
 .portfolio_l .logos{
-    width: 95%;
-    position: relative;
     left: 2.5%;
+    position: relative;
+    width: 95%;
+}
+
+.yale{
+    border-bottom: 1px solid gainsboro;
 }
 /*menu navigation*/
 nav{
-    border-bottom: 1px solid gainsboro;
     background: ghostwhite;
+    border-bottom: 1px solid gainsboro;
+    font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     position: sticky;
     top: 0;
     z-index: 50;
-    font-family: roboto_condensed, Arial, Helvetica, sans-serif;
 }
 
 nav ul {
-    text-align: justify;
+    font-weight: bold;
     line-height: 0;
     margin: 0;
     padding: .5rem 1rem;
-    font-weight: bold;
+    text-align: justify;
   }
   
 nav ul:after {
