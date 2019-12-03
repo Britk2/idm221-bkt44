@@ -17,8 +17,7 @@ body{
     background-color: ghostwhite;
     border: 2.5px solid lavender;
     margin: .75rem;
-    outline: 5px solid ghostwhite;
-    width:100%;
+    outline:2.5px solid ghostwhite;
 }
 
 a{
@@ -36,11 +35,10 @@ header .logo img{
 }
 header .logo a{
     margin:0;
-    padding:0;
+    padding:0 0 1rem 0;
 }
 
 header{
-    border-bottom: 1px solid gainsboro;
     color:rgb(90, 63, 90);
     font-family: roboto_condensed, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -64,18 +62,22 @@ p{
     padding: 1rem;
     text-indent: 2rem; 
 }
-h1, h2, h4, h6{
+
+h1, h2, h4, h6, .res a, .ux_h a, .hp a, .portfolio_h a, .abt a, .cnt a, .arduino_h a, .logo_h a, .portfolio_h a{
     color:rgb(90, 63, 90);
 }
 
 .res, .ux_h, .hp, .portfolio_h, .abt, .cnt, .arduino_h, .logo_h, .portfolio_h{
     text-align: center;
+    font-family: roboto_condensed, Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background: ghostwhite;
     border-bottom: 1px solid gainsboro;
-    padding: 1rem 0;
+    padding: .5rem 0 1rem 0;
     position: sticky;
     top: 0;
     z-index: 25;
+    margin: 0;
 }
 
 
@@ -205,5 +207,5 @@ nav ul li a{
 
 .social ul li{
     display: inline-block;
-    padding: .5rem 1rem;
+    padding: 1rem 1rem;
 }
