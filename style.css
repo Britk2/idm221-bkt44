@@ -138,11 +138,11 @@ img, video{
 
 .cat{
     list-style: none;
-    padding:1rem 0;
+    padding:.5rem 0;
 }
 
 .skill li{
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .skill{
