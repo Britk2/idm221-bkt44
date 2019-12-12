@@ -125,6 +125,7 @@ img, video{
 
 .resume div, .resume div dt, .resume div dd{
     padding-bottom: .5rem;
+    line-height: 2;
 }
 
 .resume .education ul li{
@@ -133,6 +134,19 @@ img, video{
 
 .accomplishments li{
     line-height: 2;
+}
+
+.cat{
+    list-style: none;
+    padding:1rem 0;
+}
+
+.skill li{
+    line-height: 2;
+}
+
+.skill{
+    padding-top: 1rem;
 }
 
 /*Portfolio Page*/
