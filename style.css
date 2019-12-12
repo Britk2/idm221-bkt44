@@ -54,7 +54,7 @@ header{
     font-weight: thin;
     padding: 1rem;
 }
-#introduction h3, #introduction h6{
+#introduction h6{
     text-align: center;
 }
 
@@ -91,10 +91,26 @@ img, video{
     max-width: 100%;    
 }
 
+.github, .yt{
+    width:50px;
+    height:50px;
+}
+.yt{
+    position: relative;
+    bottom:.5rem;
+}
+/*About page*/
+.me_p{
+    padding: 0 2rem;
+}
 /*contact page*/
 .contact h4, .socialmedia{
     color: darkslateblue;
-    margin:1rem
+    margin:1rem;
+}
+
+.c_c{
+    padding: 0 1rem;
 }
 
 /*resume*/
@@ -121,7 +137,7 @@ img, video{
 
 /*Portfolio Page*/
 .portfolio img{
-    opacity: .3;
+    opacity: .35;
     width: 100%;
 }
 
@@ -140,7 +156,7 @@ img, video{
     text-shadow: 2px 2px darkgray;
 }
 
-.arduino h2, .ux h2, .portfolio .logo h2{
+.arduino h2, .ux h2, .portfolio .logo h2, .photo h2{
     font-size: 1.125rem;
     left: 0;
     position: absolute;
@@ -154,7 +170,7 @@ img, video{
     text-decoration: underline;
 }
 
-.portfolio .logo, .ux, .arduino{
+.portfolio .logo, .ux, .arduino, .photo{
     position: relative;
 }
 
@@ -164,9 +180,20 @@ img, video{
     position: relative;
     width: 95%;
 }
-
+/*ux page*/
 .yale{
     border-bottom: 1px solid gainsboro;
+}
+.portfolio_ux p{
+    padding: 0 2rem;
+}
+
+/*3d & hands on page*/
+.portfolio_a p{
+    padding: 0 2rem;
+}
+.stool h3{
+    text-align: center;
 }
 /*menu navigation*/
 nav{
